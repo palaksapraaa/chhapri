@@ -21,8 +21,3 @@ jobs:
 
     - name: Run justtestingcode.py
       run: python justtestingcode.py
-
-        python-version: '3.12' # Use the Python version you need
-
-    - name: Run justtestingcode.py 2
-      run: python justtestingcode.py
