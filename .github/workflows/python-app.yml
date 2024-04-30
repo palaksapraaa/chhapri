@@ -5,7 +5,7 @@ on:
    branches:
      -main
 
-jobs
+jobs:
   run_python_script:
     name: Run hello.py
     runs_on: ubuntu-latest
