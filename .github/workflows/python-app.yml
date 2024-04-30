@@ -1,0 +1,22 @@
+name: python script workflow
+
+on:
+ push:
+   branches:
+     -main
+
+jobs
+  run_python_script:
+    name: Run hello.py
+    runs_on: ubuntu-latest
+
+  steps:
+  - name: checkout repository
+    uses: actions/checkout@v2
+    with:
+      python-version: '3.12' # use the python version you need
+
+   - name: Run justtestingcode.py
+     run: python justtestingcode.py
+
+      
